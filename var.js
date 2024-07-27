@@ -1,0 +1,22 @@
+a = 3
+b = 4
+
+console.log(a + b)
+console.log(a * b)
+console.log(a / b)
+console.log(a - b)
+
+let x = 10;
+
+if (true) {
+    let x = 20;  // This x is different from the x declared above
+    console.log(x);  // Output: 20
+}
+
+console.log(x);  // Output: 10
+
+let str = "Ashin"
+console.log(str)
+
+str = "xyz"
+console.log(str)
