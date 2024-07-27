@@ -6,6 +6,8 @@ console.log(a * b)
 console.log(a / b)
 console.log(a - b)
 
+
+// Below example is to learn the scope of let keyword
 let x = 10;
 
 if (true) {
