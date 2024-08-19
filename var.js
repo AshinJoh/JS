@@ -8,8 +8,8 @@ console.log(a - b)
 
 
 // Below example is to learn the scope of let keyword
-let x = 10;
-
+let x = 10
+console.log(x)
 if (true) {
     let x = 20;  // This x is different from the x declared above
     console.log(x);  // Output: 20
