@@ -14,4 +14,5 @@ console.log(a && b);
 console.log(a || b);
 console.log(a && !b);
 
-console.log(BigInt(123456789987654321456987))
+let car;
+console.log(typeof car);
