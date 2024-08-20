@@ -6,6 +6,7 @@ for(i = 10;i >= 0; i--){
     console.log(i);
 }
 console.log(" ");
+
 let age = 10;
 do{
     console.log(age);

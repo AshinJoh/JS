@@ -17,7 +17,7 @@ if (true) {
 
 console.log(x);  // Output: 10
 
-let str = "Ashin"
+let str = Ashin
 console.log(str)
 
 str = "xyz"
