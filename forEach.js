@@ -1,20 +1,18 @@
 let num = [2,3,5,1,7];
-let sum = 0;
-
-for(let i in num){
-    sum += num[i];
-}
-
-console.log(sum);
-
-
 //FOR EACH
-console.log("FOR EACH:")
-ans = 0;
-num.forEach(myFunc);
+console.log(" ");
+num.forEach((ele) => {
+    console.log(ele * ele)
+})
 
-function myFunc(val){
-    ans += val;
+console.log(" ");
+//for of
+for(let i of num){
+    console.log(i);
 }
 
-console.log(ans)
+//for in
+console.log(" ");
+for(let i in num){
+    console.log(num[i]);
+}

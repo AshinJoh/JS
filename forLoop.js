@@ -8,10 +8,10 @@ for(i = 10;i >= 0; i--){
 console.log(" ");
 
 let age = 10;
-do{
+while(age > 0){
     console.log(age);
     age -= 1;
-}while(age > 0);
+}
 
 const person = {fname:"John", lname:"Doe", age:25};
 
