@@ -17,15 +17,10 @@
     <script>
         const boxDiv = document.getElementsByClassName("blue-box")[0];
         
-        boxDiv.addEventListener("click", function(e) {
-            //alert("DECODE!");
-            console.log(this);
-        });
+        boxDiv.addEventListener("mouseover", function(e) {
+            alert("You hovered above the box");
         
-        boxDiv.addEventListener("click", e => {
-            console.log(this);
-        })
-
+        });
     </script>
 </body>
 </html>
